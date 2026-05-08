@@ -3,7 +3,7 @@ import Uploadcategory from "../components/Uploadcategory";
 import { useEffect } from "react";
 import Axios from "../utils/Axios";
 import summaryApi from "../common/summaryApi";
-import AxiosToastError from "../utils/AxiosToastError";
+import AxiosToastError from "../utils/AxiosToastError.js";
 import Loading from "../components/Loading";
 import Editcategory from "../components/Editcategory";
 import Conform from "../components/Conform";

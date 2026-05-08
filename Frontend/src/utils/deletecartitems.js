@@ -1,7 +1,7 @@
 import toast from "react-hot-toast"
 import summaryApi from "../common/summaryApi"
 import Axios from "./Axios"
-import AxiosToastError from "./AxiosToastError"
+import AxiosToastError from "./AxiosToastError.js"
 
 const deletecartitems=async(cardId)=>{
     try {

@@ -3,7 +3,7 @@ import { useState } from "react";
 import { IoCloseCircleSharp } from "react-icons/io5";
 import Axios from "../utils/Axios";
 import summaryApi from "../common/summaryApi";
-import AxiosToastError from "../utils/Axiostoasterror";
+import AxiosToastError from "../utils/AxiosToastError.js";
 import toast from "react-hot-toast";
 import fetchcategoryDetails from "../utils/fetchcategoryDetails";
 import { useDispatch } from "react-redux";

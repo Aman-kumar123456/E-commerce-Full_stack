@@ -7,7 +7,7 @@ import { clearCart } from "../Store/cartSlice";
 import Axios from "../utils/Axios";
 import summaryApi from "../common/summaryApi";
 import toast from "react-hot-toast";
-import AxiosToastError from "../utils/AxiosToastError";
+import AxiosToastError from "../utils/AxiosToastError.js";
 import { FaEdit } from "react-icons/fa";
 
 

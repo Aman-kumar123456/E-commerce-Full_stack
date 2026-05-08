@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { IoCloudUpload } from "react-icons/io5";
-import AxiosToastError from "../utils/Axiostoasterror";
+import AxiosToastError from "../utils/AxiosToastError.js";
 import Axios from "../utils/Axios";
 import summaryApi from "../common/summaryApi";
 import toast from "react-hot-toast";

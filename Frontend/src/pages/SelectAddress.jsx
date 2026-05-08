@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Pricediscount } from "../utils/Pricediscount";
 import SetAddress from "../components/SetAddress";
-import AxiosToastError from "../utils/AxiosToastError";
+import AxiosToastError from "../utils/AxiosToastError.js";
 import Axios from "../utils/Axios";
 import summaryApi from "../common/summaryApi";
 import toast from "react-hot-toast";

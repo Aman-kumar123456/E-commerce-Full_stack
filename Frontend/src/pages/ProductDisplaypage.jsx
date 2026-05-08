@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import AxiosToastError from "../utils/AxiosToastError";
+import AxiosToastError from "../utils/AxiosToastError.js";
 import Axios from "../utils/Axios";
 import summaryApi from "../common/summaryApi";
 import toast from "react-hot-toast";

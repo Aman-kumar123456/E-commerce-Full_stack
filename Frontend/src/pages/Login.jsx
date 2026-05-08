@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { IoMdEye } from "react-icons/io";
 import { IoMdEyeOff } from "react-icons/io";
 import Axios from "../utils/Axios";
-import AxiosToastError from "../utils/Axiostoasterror";
+import AxiosToastError from "../utils/AxiosToastError.js";
 import summaryApi from "../common/summaryApi";
 import toast from "react-hot-toast";
 import { Link, useNavigate } from "react-router-dom";

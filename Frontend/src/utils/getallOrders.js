@@ -1,7 +1,7 @@
 import summaryApi from "../common/summaryApi"
 import Axios from "./Axios"
 import  toast, { Toaster } from 'react-hot-toast';
-import AxiosToastError from "./AxiosToastError";
+import AxiosToastError from "./AxiosToastError.js";
 
 const getAllorders=async()=>{
 try {

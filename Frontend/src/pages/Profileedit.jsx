@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import { GiCrossMark } from "react-icons/gi";
 import Axios from "../utils/Axios";
-import AxiosToastError from "../utils/AxiosToastError";
+import AxiosToastError from "../utils/AxiosToastError.js";
 import summaryApi from "../common/summaryApi";
 import toast from "react-hot-toast";
 import { useDispatch } from "react-redux";
