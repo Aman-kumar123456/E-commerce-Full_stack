@@ -4,7 +4,7 @@ import { IoMdEyeOff } from "react-icons/io";
 import toast from "react-hot-toast";
 import Axios from "../utils/Axios";
 import summaryApi from "../common/summaryApi";
-import AxiosToastError from "../utils/Axiostoasterror";
+import AxiosToastError from "../utils/AxiosToastError.js";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 const Resetpassword = () => {
   const location = useLocation();
