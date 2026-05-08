@@ -34,7 +34,7 @@ app.use(
   }),
 );
 
-const PORT = 5000 || process.env.PORT;
+// const PORT = 5000 || process.env.PORT;
 
 // app.get("/",(req,res)=>{
 //     res.send("Hello World");
@@ -52,8 +52,7 @@ app.use("/api/cart", cartRouter);
 app.use("/api/address", addressRouter);
 app.use("/api/order", orderRoute);
 
-connectDB().then(() => {
-  app.listen(PORT, () => {
-    console.log(`Server is running on port {http://localhost:${PORT}}`);
-  });
-});
+
+connectDB();
+
+export default app;
