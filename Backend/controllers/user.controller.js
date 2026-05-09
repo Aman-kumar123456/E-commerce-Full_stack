@@ -339,8 +339,8 @@ try {
 
 const cookieoption={
     httpOnly:true,
-    secure:false,
-    sameSite:"Lax"
+    secure:true,
+    sameSite:"None"
 }
 
 response.clearCookie("accesstoken",cookieoption);
