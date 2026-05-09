@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Uploadsubcategory from "../components/Uploadsubcategory";
 // import displayTable from '../components/displayTable'
-import DisplayTable from "../components/displayTable";
+import DisplayTable from "../components/DisplayTable";
 import fetchsubcategoryDetails from "../utils/fetchsubcategoryDetails";
 import { createColumnHelper } from "@tanstack/react-table";
 import ShowSubcategoryimage from "../components/ShowSubcategoryimage";
