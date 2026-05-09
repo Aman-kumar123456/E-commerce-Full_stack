@@ -15,8 +15,8 @@ import getAddress from "../utils/getAddress.js";
 import { setAlladdress } from "../Store/addressSlice.js";
 import getAllorders from "../utils/getallOrders.js";
 import { setOrder } from "../Store/orderSlice.js";
-import fetchsubcategoryDetails from "../utils/fetchsubcategoryDetails.js";
-import { setAllSubCategory } from "../Store/productSlice.js";
+// import fetchsubcategoryDetails from "../utils/fetchsubcategoryDetails.js";
+// import { setAllSubCategory } from "../Store/productSlice.js";
 const Login = () => {
   const [showpassword, setShowpassword] = useState(false);
   const navigate = useNavigate();
