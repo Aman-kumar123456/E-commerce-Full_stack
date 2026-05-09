@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Pricediscount } from "../utils/Pricediscount";
+import { Pricediscount } from "../utils/Pricediscount.js";
 import SetAddress from "../components/SetAddress";
 import AxiosToastError from "../utils/AxiosToastError.js";
-import Axios from "../utils/Axios";
+import Axios from "../utils/Axios.js";
 import summaryApi from "../common/summaryApi";
 import toast from "react-hot-toast";
-import getcartitems from "../utils/fetchcartitem";
+import getcartitems from "../utils/fetchcartitem.js";
 import { setCartitems } from "../Store/cartSlice";
 import { useNavigate } from "react-router-dom";
 import { loadStripe } from "@stripe/stripe-js";
 import getAllorders from "../utils/getallOrders";
 import { setOrder } from "../Store/orderSlice";
-import { PriceInRupees } from "../utils/PriceInRupees";
+import { PriceInRupees } from "../utils/PriceInRupees.js";
 const SelectAddress = () => {
   const [CountCartItems, setCountCartItems] = useState(0);
   const cartitems = useSelector((state) => state?.cart?.allCartitems);
